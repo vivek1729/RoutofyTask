@@ -5,6 +5,7 @@ I use libcurl to make the http request. The redis client I use https://github.co
 
 Do the following steps to run the program:
 
-* sudo apt-get install libboost-all-dev
+* sudo apt-get install libboost-all-dev (one time to esnure dependcies)
 * make
+* Start the redis server before running the executable (redis-server)
 * ./app
